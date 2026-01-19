@@ -1,0 +1,254 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container,
+.containerAbout {
+  height: 195vh;
+  max-width: 400px;
+  background-color: #ffff;
+}
+nav {
+  width: 95%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: poppins, sans-serif;
+  font-weight: 800;
+  color: white;
+  transition: all 0.5s;
+}
+
+nav:hover {
+  box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.containerVid {
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("bgfre.jpg");
+  border-image: fill 0 linear-gradient(#0001, #000);
+  background-size: cover;
+  flex-direction: column;
+}
+
+section {
+  width: 80%;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section button {
+  border: none;
+  cursor: pointer;
+}
+
+section p {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: 0.5px;
+  font-style: italic;
+
+  height: 25%;
+}
+
+.profilSosmed {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-image: url("poto.jpg");
+
+  background-size: cover;
+}
+
+.containerSosmed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.sosmed {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.sosmed:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.backAbout {
+  height: 25vh;
+  width: 100%;
+  background-image: url("download.jpeg");
+  background-size: cover;
+}
+
+.mainAbout {
+  width: 100%;
+  height: 90vh;
+  background-color: #ffff;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  top: -20px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.sectionAbout {
+  width: 80%;
+  height: 600px;
+  padding: 30px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 0;
+}
+.sectionAbout p {
+  color: #000;
+  margin-top: 10px;
+}
+
+.profilSosmedAbout {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+  background-image: url("poto.jpg");
+  background-size: cover;
+}
+
+.containerSosmedAbout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.sosmedAbout {
+  width: 40px;
+  margin-top: 10px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+.sosmedAbout:hover,
+.midCollection:hover {
+  transform: scale(1.1);
+}
+
+.containerCollection {
+  width: 100%;
+  height: 600px;
+
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.containerCollection button {
+  border: none;
+  cursor: pointer;
+}
+
+.midCollection {
+  width: 160px;
+  height: 250px;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+
+  align-items: center;
+}
+.collection {
+  width: 160px;
+  height: 160px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.collection {
+  background-image: url("aa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.midCollection p {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.containerContent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+}
+
+.content {
+  width: 70%;
+  box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.5);
+  height: 400px;
+}
+
+footer {
+  position: relative;
+  top: 100px;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}

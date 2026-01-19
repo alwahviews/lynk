@@ -7,10 +7,17 @@ body {
   scroll-behavior: smooth;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .container,
 .containerAbout {
   height: 195vh;
   max-width: 400px;
+
   background-color: #ffff;
 }
 nav {
@@ -243,7 +250,7 @@ section p {
 
 footer {
   position: relative;
-  top: 100px;
+  top: 150px;
   height: 150px;
   width: 100%;
   display: flex;

@@ -243,6 +243,10 @@ section p {
 }
 
 .content {
+background-image: url("20251215_185028.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   width: 70%;
   box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, 0.5);
   height: 400px;
